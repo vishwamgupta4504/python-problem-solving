@@ -128,15 +128,24 @@
 
 
 # odd number
+# numbers=[10,15,22,31,40,55]
 
-numbers=[10,15,22,31,40,55]
+# result=[]
 
-result=[]
+# for i in numbers:
+#     if i%2==0:
+#         pass
+#     else:
+#         result.append(i)
 
-for i in numbers:
-    if i%2==0:
-        pass
-    else:
-        result.append(i)
+# print(result)
 
-print(result)
+# count string length without using len()
+text ="python"
+
+count=0
+
+for i in text:
+    count+=1
+
+print(count)
