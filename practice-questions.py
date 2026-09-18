@@ -164,8 +164,14 @@
 
 # print first character of string
 
-text="hello"
+# text="hello"
 
-for i in text:
-    print(text[0])
-    break
+# for i in text:
+#     print(text[0])
+#     break
+
+# negitive indexing 
+
+numbers=[10,20,30,40,50]
+
+print(numbers[-1])
