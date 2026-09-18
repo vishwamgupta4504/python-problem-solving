@@ -104,13 +104,25 @@
 
 # print(result)
 
-# list sum
-numbers=[10,20,30,40,50]
+# # list sum
+# numbers=[10,20,30,40,50]
 
-# print(sum(numbers))
+# # print(sum(numbers))
 
-total =0
-for i in numbers:
-    total=total +i
+# total =0
+# for i in numbers:
+#     total=total +i
 
-print(total)
+# print(total)
+
+# upper letter count
+
+text= "Hello world"
+
+count=0
+
+for i in text:
+    if i.isupper():
+        count+=1
+
+print(count)
