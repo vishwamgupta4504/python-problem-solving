@@ -6,7 +6,7 @@ print(text[::-1])
 # student marks Analzer
 
 students=[]
-
+attempt=0
 
 def Analyzer():
     student_Name=input("Enter student name: ")
@@ -16,7 +16,7 @@ def Analyzer():
     print("student_Marks")
 
     if student_Marks>=90:
-        return "A" 
+        grade= "A" 
     elif student_Marks>=75:
         grade ="B"
     elif student_Marks>=60:
@@ -26,20 +26,35 @@ def Analyzer():
     else:
         grade="Fail"
 
+
     students.append({
         "name": student_Name,
         "marks": student_Marks,
         "grade": grade
     })    
-           
-    return student_Marks
 
+    total = 0
+
+    for student in students:
+        total= total+ student["marks"]
+
+    
+    average= total/len(students)
+           
+    
+    print("total: ",total)
+    print("average: ",average)
+
+    
+
+    
 
 while True:
         Analyzer()
-        
-
-
-
+        attempt+=1
+        if attempt==3:
+             highest_student= max(students, key= lambda student: student["marks"])
+             print(highest_student)     
+             break  
         
 
