@@ -7,6 +7,8 @@ print(text[::-1])
 
 students=[]
 
+global student_Name
+global student_Marks
 
 def Analyzer():
         student_Name=input("Enter student name: ")
@@ -17,6 +19,7 @@ def Analyzer():
 
 while True:
         Analyzer()
+
 
 
 
