@@ -60,6 +60,17 @@
 
 # list
 
-numbers=[10,25,7,40,15,30]
+# numbers=[10,25,7,40,15,30]
 
-print(max(numbers))
+# print(max(numbers))
+
+#  string
+
+text="programming"
+count=0
+
+for i in text:
+    if "g" in i:
+        count+=1
+
+print(count)
