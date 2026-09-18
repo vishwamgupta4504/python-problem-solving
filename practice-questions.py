@@ -153,11 +153,19 @@
 
 # count specifit list data
 
-numbers=[10,125,10,30,10,40]
-count=0
+# numbers=[10,125,10,30,10,40]
+# count=0
 
-for i in numbers:
-    if i==10:
-        count+=1
+# for i in numbers:
+#     if i==10:
+#         count+=1
 
-print(count)
+# print(count)
+
+# print first character of string
+
+text="hello"
+
+for i in text:
+    print(text[0])
+    break
