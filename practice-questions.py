@@ -94,12 +94,17 @@
 
 # even numbers
 
-numbers=[12,5,8,21,4,16,7]
+# numbers=[12,5,8,21,4,16,7]
 
-result=[]
+# result=[]
 
-for i in numbers:
-    if i%2==0:
-        result.append(i)
+# for i in numbers:
+#     if i%2==0:
+#         result.append(i)
 
-print(result)
+# print(result)
+
+# list sum
+numbers=[10,20,30,40,50]
+
+print(sum(numbers))
