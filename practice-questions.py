@@ -7,19 +7,39 @@ print(text[::-1])
 
 students=[]
 
-global student_Name
-global student_Marks
 
 def Analyzer():
-        student_Name=input("Enter student name: ")
-        student_Marks= int(input("Enter Student marks: "))
+    student_Name=input("Enter student name: ")
+    student_Marks= int(input("Enter Student marks: "))
 
-        students.append(student_Name,student_Marks)
-        return student_Marks
+    
+    print("student_Marks")
+
+    if student_Marks>=90:
+        return "A" 
+    elif student_Marks>=75:
+        grade ="B"
+    elif student_Marks>=60:
+        grade ="C"    
+    elif student_Marks>= 40:
+        grade ="D" 
+    else:
+        grade="Fail"
+
+    students.append({
+        "name": student_Name,
+        "marks": student_Marks,
+        "grade": grade
+    })    
+           
+    return student_Marks
+
 
 while True:
         Analyzer()
+        
 
 
 
+        
 
