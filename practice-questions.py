@@ -107,4 +107,10 @@
 # list sum
 numbers=[10,20,30,40,50]
 
-print(sum(numbers))
+# print(sum(numbers))
+
+total =0
+for i in numbers:
+    total=total +i
+
+print(total)
