@@ -141,11 +141,23 @@
 # print(result)
 
 # count string length without using len()
-text ="python"
+# text ="python"
 
+# count=0
+
+# for i in text:
+#     count+=1
+
+# print(count)
+
+
+# count specifit list data
+
+numbers=[10,125,10,30,10,40]
 count=0
 
-for i in text:
-    count+=1
+for i in numbers:
+    if i==10:
+        count+=1
 
 print(count)
