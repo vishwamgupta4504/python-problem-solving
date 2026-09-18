@@ -116,13 +116,27 @@
 # print(total)
 
 # upper letter count
+# text= "Hello world"
 
-text= "Hello world"
+# count=0
 
-count=0
+# for i in text:
+#     if i.isupper():
+#         count+=1
 
-for i in text:
-    if i.isupper():
-        count+=1
+# print(count)
 
-print(count)
+
+# odd number
+
+numbers=[10,15,22,31,40,55]
+
+result=[]
+
+for i in numbers:
+    if i%2==0:
+        pass
+    else:
+        result.append(i)
+
+print(result)
