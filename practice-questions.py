@@ -177,9 +177,25 @@
 # print(numbers[-1])
 
 
-text="python"
+# text="python"
 
-if "p" in text:
-    print(True)
-else:
-    print(False)    
+# if "p" in text:
+#     print(True)
+# else:
+#     print(False)  
+# 
+
+# # count number > 10
+# # 
+# numbers=[12,7,18,5,20,9]  
+# count=0
+# for i in numbers:
+#     if i > 10:
+#         count+=1
+# print(count)     
+# 
+# sum 
+numbers= [10,20,30,40,50]   
+
+print(sum(numbers))
+
