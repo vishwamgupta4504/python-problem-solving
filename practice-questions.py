@@ -172,6 +172,14 @@
 
 # negitive indexing 
 
-numbers=[10,20,30,40,50]
+# numbers=[10,20,30,40,50]
 
-print(numbers[-1])
+# print(numbers[-1])
+
+
+text="python"
+
+if "p" in text:
+    print(True)
+else:
+    print(False)    
