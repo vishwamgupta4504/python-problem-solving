@@ -195,7 +195,38 @@
 # print(count)     
 # 
 # sum 
-numbers= [10,20,30,40,50]   
+# numbers= [10,20,30,40,50]   
 
-print(sum(numbers))
+# print(sum(numbers))
 
+# # largest number
+
+# numbers=[12,45,23,67,34]
+# largest=numbers[0]
+
+# for i in range(len(numbers)):
+#     if numbers[i] > largest:
+#         largest= numbers[i]
+# print(largest)
+
+#  smaller number
+
+# numbers=[12,45,23,67,34]
+# smallest=numbers[0]
+
+# for i in range(len(numbers)):
+#     if numbers[i]<smallest:
+#         smallest=numbers[i]
+# print(smallest)        
+
+#  positive number count
+numbers=[-5,10,-2,7,0,15,-8]
+
+count=0
+
+for i in (numbers):
+    if i >0:
+
+        count+=1
+
+print("positive number is: ",count)        
